@@ -1,0 +1,12 @@
+Concatenating Strings is adding strings to make one big one variable3 = variable1 + variable 2
+
+Indexing is done by taking variable and choosing variale number to print just a single digit or letter. print ( variable[0] )
+
+Slicing is like indexing but a portion of a variable. print (variable[1:4])
+
+
+
+To get A decimal number you use float variableHere = float(input("Question for getting Number")
+To get just a number or interger you use int instead of float
+
+To print a float or int you must put str(variable)
