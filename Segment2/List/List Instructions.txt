@@ -1,0 +1,47 @@
+A List About Making Lists
+Does a list have to have a name?
+Answer
+Yes. It doesn't have to have the word "list" in the name, but that tends to make it more meaningful.
+
+How do you create a list?
+Answer
+You assign your list a name using an equal sign (=), and then use brackets to tell Python you want to create a list. Inside the brackets— include the contents of your list, separated by commas. Remember, if you are using string literals, use quotation marks.
+
+Example: toDoList = ["Wake up", "Brush teeth", "Get dressed", "Eat breakfast"]
+
+How do you find out how long a list is?
+Answer
+To find the number of values in a list, use the len() function. Select the parts of code below to see how it is used.
+
+length = len(toDoList)
+
+How do you access a specific list item?
+Answer
+Because each item in a list is assigned an index number, you can call a specific item by calling its index position. Select the parts of code to see how it works.
+
+print(toDoList[1])
+
+How do you traverse, or access the values, of a list?
+Answer
+To access your list, you can use a for loop. Select the parts of code to see how it works.
+
+for n in range(0, len(toDoList)):
+    print(str(n) + " " + toDoList[n] + "!")
+
+How do you append a list item?
+Answer
+To append, or add an item to the list, you'll use the append() function. Select the parts of code to see how to append a list item.
+
+toDoList.append("Stay in pajamas")
+
+How do you delete a list item?
+Answer
+To delete a list item, use the Python keyword del. Select the parts of code to see how to delete items from a list.
+
+del toDoList[2]
+
+How do you change a list item?
+Answer
+To change or update the value of a list item, use an assignment statement and an index position. Select the parts of code to see how to change an item in the list.
+
+toDoList[4] = "Find clothes"
