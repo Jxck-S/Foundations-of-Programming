@@ -1,0 +1,5 @@
+: Colon
+" Qotation marks
+, Comma
+[] Square Brackets 
+ () Paratheses 
