@@ -1,0 +1,70 @@
+﻿Decimal System
+Image of a decimal example, like money.
+Base: 10
+
+Classes 
+    Object 
+             Attributes
+
+
+Description: Probably the most familiar number system to humans, decimals are based on ten digits, from 0-9.
+
+Example: Money uses the decimal system, as all amounts use numbers based on the ten-digit system, such as $1.50.
+
+
+Binary System
+Image of binary code
+� Shutterstock.com
+Base: 2
+
+Description: Binary numbers are what computer language is made of. They are based on two digits: 0 and 1. The combination of 0s and 1s can be converted into other types of numbers or even words!
+
+Example: You can use the binary system numbers to write other types of numbers or words: 00110001 00110010 00110011 (the binary for the decimal 123).
+
+
+
+Hexadecimal System
+Image of hex code
+
+Base: 16
+
+Description: Hexadecimal numbers are common in the computer world, most often used in relation with colors and memory locations. They are based on sixteen digits, from 0-9 and A-F.
+
+Example: All colors have a hexadecimal code, fthe # symbol followed by a string of numbers and letters. #FFD700 is the hexadecimal code for the color gold.
+Image of a magnifying glass reading
+
+
+To encode into ASCII, you use the chr() (short for "character") function.
+
+To decode, you use the ord() (short for "ordinal") function.
+
+Let's look at how it works:
+
+def main():
+    print( chr(65) )
+    print( ord('A') )
+main()
+
+
+
+To convert to binary 
+d = 7
+binary = bin(d)
+
+Print “binary is “ + binary 
+
+Binary to decimal 
+
+binary = 01010
+d = int(binary, 2)
+Print d
+
+Convert dec to hex
+d = 130
+h = hex(d)
+print h
+
+convert hex to dec
+h = 0x9c
+d = int(h, 16)
+print d 
